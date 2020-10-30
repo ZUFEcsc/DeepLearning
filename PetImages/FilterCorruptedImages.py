@@ -5,7 +5,7 @@ from tensorflow.keras import layers
 
 num_skipped = 0
 for folder_name in ("Cat", "Dog"):
-    folder_path = os.path.join("PetImages", folder_name)
+    folder_path = os.path.join(r"F:\project\DeepLearning\PetImages", folder_name)
     for fname in os.listdir(folder_path):
         fpath = os.path.join(folder_path, fname)
         try:

@@ -8,6 +8,9 @@ from tensorflow.keras.models import Model
 from tensorflow.keras.layers import Dense, GlobalAveragePooling2D
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from tensorflow.keras.callbacks import CSVLogger
+from PIL import ImageFile
+ImageFile.LOAD_TRUNCATED_IMAGES = True
+
 warnings.filterwarnings('ignore')
 
 #from keras.optimizers import SGD
@@ -52,14 +55,14 @@ model.compile(optimizer='rmsprop',
 model.fit_generator(trainGen.flow_from_directory(trainPath,
                                                  target_size=(100, 100),
                                                  #save_to_dir='what',
-                                                 batch_size=64),
+                                                 batch_size=2),
                     steps_per_epoch=331, workers=8,
                     validation_data=evalGen.flow_from_directory(evalPath,
                                                  target_size=(100, 100),
                                                  batch_size=4),
                     validation_steps=544,
                     callbacks=[csv_logger],
-                    verbose=2, epochs=20)
+                    verbose=2, epochs=2)
 
 scores = model.evaluate_generator(evalGen.flow_from_directory(evalPath,
                                                  target_size=(100, 100),
@@ -71,4 +74,4 @@ print('Test accuracy:', scores[1])
 
 model.save('CatDog.h5')
 
-input('Press any key......')
+# input('Press any key......')
