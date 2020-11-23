@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<annotation>
+<folder>JPEGImages</folder>
+<filename>00027.jpg</filename>
+<path>F:\project\DeepLearning\bighomework\VOC2007\JPEGImages\00027.jpg</path>
+<source>
+    <database>Unknown</database>
+</source>
+<size>
+    <width>2340</width>
+    <height>1080</height>
+    <depth>3</depth>
+</size>
+
+<segmented>0</segmented>
+    <object>
+    <name>Nobi</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>1338</xmin>
+        <ymin>178</ymin>
+        <xmax>1818</xmax>
+        <ymax>700</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>Suneo</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>562</xmin>
+        <ymin>82</ymin>
+        <xmax>974</xmax>
+        <ymax>509</ymax>
+    </bndbox>
+</object>
+</annotation>

@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<annotation>
+<folder>JPEGImages</folder>
+<filename>00043.jpg</filename>
+<path>F:\project\DeepLearning\bighomework\VOC2007\JPEGImages\00043.jpg</path>
+<source>
+    <database>Unknown</database>
+</source>
+<size>
+    <width>2340</width>
+    <height>1080</height>
+    <depth>3</depth>
+</size>
+
+<segmented>0</segmented>
+    <object>
+    <name>Takeshi</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>860</xmin>
+        <ymin>334</ymin>
+        <xmax>1042</xmax>
+        <ymax>550</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>Shizuka</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>725</xmin>
+        <ymin>499</ymin>
+        <xmax>923</xmax>
+        <ymax>788</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>Nobi</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>1109</xmin>
+        <ymin>562</ymin>
+        <xmax>1332</xmax>
+        <ymax>819</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>Doraemon</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>1347</xmin>
+        <ymin>656</ymin>
+        <xmax>1605</xmax>
+        <ymax>947</ymax>
+    </bndbox>
+</object>
+</annotation>

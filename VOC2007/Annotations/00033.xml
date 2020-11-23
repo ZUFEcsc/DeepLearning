@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<annotation>
+<folder>JPEGImages</folder>
+<filename>00033.jpg</filename>
+<path>F:\project\DeepLearning\bighomework\VOC2007\JPEGImages\00033.jpg</path>
+<source>
+    <database>Unknown</database>
+</source>
+<size>
+    <width>2340</width>
+    <height>1080</height>
+    <depth>3</depth>
+</size>
+
+<segmented>0</segmented>
+    <object>
+    <name>Nobi</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>1184</xmin>
+        <ymin>568</ymin>
+        <xmax>1355</xmax>
+        <ymax>756</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>Doraemon</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>1417</xmin>
+        <ymin>190</ymin>
+        <xmax>1639</xmax>
+        <ymax>395</ymax>
+    </bndbox>
+</object>
+</annotation>

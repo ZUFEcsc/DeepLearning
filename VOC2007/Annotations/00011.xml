@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<annotation>
+<folder>JPEGImages</folder>
+<filename>00011.jpg</filename>
+<path>F:\project\DeepLearning\bighomework\VOC2007\JPEGImages\00011.jpg</path>
+<source>
+    <database>Unknown</database>
+</source>
+<size>
+    <width>2340</width>
+    <height>1080</height>
+    <depth>3</depth>
+</size>
+
+<segmented>0</segmented>
+    <object>
+    <name>Takeshi</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>887</xmin>
+        <ymin>97</ymin>
+        <xmax>1704</xmax>
+        <ymax>932</ymax>
+    </bndbox>
+</object>
+</annotation>
