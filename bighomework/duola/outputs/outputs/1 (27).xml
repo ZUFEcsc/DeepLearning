@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<annotation>
+<folder>duola</folder>
+<filename>1 (27).jpg</filename>
+<path>F:\project\DeepLearning\bighomework\duola\1 (27).jpg</path>
+<source>
+    <database>Unknown</database>
+</source>
+<size>
+    <width>2340</width>
+    <height>1080</height>
+    <depth>3</depth>
+</size>
+
+<segmented>0</segmented>
+    <object>
+    <name>大雄</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>1148</xmin>
+        <ymin>277</ymin>
+        <xmax>1460</xmax>
+        <ymax>626</ymax>
+    </bndbox>
+</object>
+    <object>
+    <name>哆啦A梦</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+        <xmin>640</xmin>
+        <ymin>395</ymin>
+        <xmax>1109</xmax>
+        <ymax>844</ymax>
+    </bndbox>
+</object>
+</annotation>
